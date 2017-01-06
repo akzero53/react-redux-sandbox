@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import logReducer from 'stores/reducers/log';
-import memoReducer from 'stores/reducers/memo';
+import logReducer from 'reducers/log';
+import memoReducer from 'reducers/memo';
 
 const rootReducer = combineReducers({
   logReducer: logReducer,
